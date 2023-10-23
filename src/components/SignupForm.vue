@@ -36,7 +36,7 @@
       />
     </div>
     <div class="text-center">
-      <button type="submit" class="btn btn-primary mb-3">Sign Up</button>
+      <button type="submit" class="btn btn-primary mb-3" disabled>Sign Up</button>
       <div class="text-danger">{{ error }}</div>
     </div>
   </form>

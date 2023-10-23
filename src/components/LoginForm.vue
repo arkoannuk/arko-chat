@@ -36,8 +36,8 @@ import useLogin from "../composables/useLogin"
 const emit = defineEmits(["login"])
 
 const { error, login } = useLogin()
-const email = ref("")
-const password = ref("")
+const email = ref("demo.user@gmail.com")
+const password = ref("demo.user")
 
 async function handleSubmit() {
   await login(email.value, password.value)

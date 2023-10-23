@@ -30,6 +30,9 @@
             >
             instead!
           </p>
+          <div class="text-center form-text text-warning" role="alert">
+            Signup temporarily disabled to prevent misuse
+          </div>
         </div>
       </div>
     </div>

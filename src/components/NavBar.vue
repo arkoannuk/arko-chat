@@ -4,8 +4,11 @@
       <div
         class="col-12 col-sm-10 col-md-8 col-lg-6 bg-light rounded-top-4 border border-primary border-2 shadow border-bottom-0 hstack"
       >
-        <div>
-          <p class="text-center mb-0 pt-2">
+        <div class="text-nowrap overflow-hidden">
+          <p
+            class="text-center mb-0 pt-2 overflow-hidden"
+            style="text-overflow: ellipsis"
+          >
             Hey there <span class="fw-bold">{{ user.displayName }}</span>
           </p>
           <p class="form-text mb-2">{{ user.email }}</p>

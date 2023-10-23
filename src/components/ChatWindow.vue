@@ -4,7 +4,7 @@
       <div
         class="col-12 col-sm-10 col-md-8 col-lg-6 bg-white border border-primary border-2 border-bottom-0 shadow p-0"
       >
-        <p class="text-danger mt-1 mb-1 text-center" v-if="error">{{ error }} test</p>
+        <p class="text-danger mt-1 mb-1 text-center" v-if="error">{{ error }}</p>
         <div
           ref="messages"
           v-if="documents"

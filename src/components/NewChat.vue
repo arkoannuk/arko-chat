@@ -5,9 +5,6 @@
         class="col-12 col-sm-10 col-md-8 col-lg-6 bg-light rounded-bottom-4 border border-primary border-2 shadow hstack"
       >
         <div class="w-100">
-          <p class="text-danger mt-1 mb-1 text-center" v-if="error">
-            {{ error }}
-          </p>
           <textarea
             placeholder="Hit enter to send message"
             class="form-control m-1 border-0 bg-white mx-0 my-2"
@@ -16,6 +13,9 @@
             v-model="message"
             @keydown.enter.exact.prevent="handleSubmit"
           ></textarea>
+          <p class="text-danger mt-1 mb-1 text-center" v-if="error">
+            {{ error }}
+          </p>
         </div>
       </div>
     </div>

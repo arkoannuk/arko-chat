@@ -4,12 +4,12 @@ import "firebase/auth"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAwViJjw3zmPJM2xpBuIPL0JhdZMZK-gfc",
-  authDomain: "net-vue-firebase.firebaseapp.com",
-  projectId: "net-vue-firebase",
-  storageBucket: "net-vue-firebase.appspot.com",
-  messagingSenderId: "346863065637",
-  appId: "1:346863065637:web:a9ccc3845680cc26c8fdcc"
+  apiKey: "AIzaSyD4Ag2zttMxt9MKHC8JfO4LOr4M4R1bMPE",
+  authDomain: "arko-chat.firebaseapp.com",
+  projectId: "arko-chat",
+  storageBucket: "arko-chat.appspot.com",
+  messagingSenderId: "969358520377",
+  appId: "1:969358520377:web:559912ed5545824de09de8"
 }
 
 // Initialize Firebase

@@ -4,7 +4,7 @@
 This project is a simple chat room app, where users can register, log in, and exchange messages in real time.
 
 ## Purpose
-I build this project to see how Firebase can be integrated with the Vue.js framework. By incorporating Firebase Authentication and Firestore, I got to create a real-time interactive application with secure user management and dynamic data synchronization capabilities. It also helped me solidify fundemental Vue concepts such as data binding, directives, and life cycle hooks. 
+I built this project to see how Firebase can be integrated with the Vue.js framework. By incorporating Firebase Authentication and Firestore, I got to create a real-time interactive application with secure user management and dynamic data synchronization capabilities. It also helped me solidify fundemental Vue concepts such as data binding, directives, and life cycle hooks. 
 
 ## Features
 - User authentication and authorization with Firebase Authentication

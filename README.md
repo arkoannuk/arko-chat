@@ -1,35 +1,20 @@
-# .
+# Chat Room
+[https://arko-chat.web.app/](https://arko-chat.web.app/)
+## Introduction
+This project is a simple chat room app, where users can register, log in, and exchange messages in real time.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Purpose
+I build this project to see how Firebase can be integrated with the Vue.js framework. By incorporating Firebase Authentication and Firestore, I got to create a real-time interactive application with secure user management and dynamic data synchronization capabilities. It also helped me solidify fundemental Vue concepts such as data binding, directives, and life cycle hooks. 
 
-## Recommended IDE Setup
+## Features
+- User authentication and authorization with Firebase Authentication
+- Real-time data synchronization and management using Firebase Firestore
+- Easy-to-use interface for chat interactions and user management.
+- Responsive design to ensure smooth functionality across various devices
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Technologies Used
+- Bootstrap
+- Vue.js
+- Firebase (Firestore, Authentication)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+![https://res.cloudinary.com/dgjfea9cb/image/upload/v1698139494/arko-chat_ddjshl.png](https://res.cloudinary.com/dgjfea9cb/image/upload/v1698139494/arko-chat_ddjshl.png)
